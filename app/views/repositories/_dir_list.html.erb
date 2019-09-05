@@ -1,0 +1,20 @@
+<div class="autoscroll">
+<table class="list entries" id="browser">
+<thead>
+<tr id="root">
+<th><%= repo_column_header_link(l(:field_name), "name")  %></th>
+<th><%= repo_column_header_link(l(:field_filesize), "filesize")  %></th>
+<% if @repository.report_last_commit %>
+<th><%= l(:label_revision)  %></th>
+<th><%= l(:label_age)       %></th>
+<th><%= repo_column_header_link(l(:label_repo_changed), "time")  %></th>
+<th><%= repo_column_header_link(l(:field_author), "author")  %></th>
+<th><%= l(:field_comments)  %></th>
+<% end %>
+</tr>
+</thead>
+<tbody>
+<%= render :partial => 'dir_list_content' %>
+</tbody>
+</table>
+</div>
