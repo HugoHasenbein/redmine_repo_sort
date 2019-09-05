@@ -32,7 +32,7 @@ Sort is maintained on clicking on a directory node.
 
 ### Use
 
-* Just install and go to yourrepository. Plugin has  been tested extensively with filesystem repositories. Should work with github, bazaar, cvs as well.
+* Just install and go to your repository. Plugin has been tested extensively with filesystem repositories. Should work with github, bazaar, cvs as well.
 
 **Have fun!**
 
