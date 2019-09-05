@@ -24,7 +24,7 @@ Sort is maintained on clicking on a directory node.
 
 1. go to plugins folder, delete plugin folder  
 
-`rm -r redmine_tint_issues`
+`rm -r redmine_repo_sort`
 
 2. restart server f.i. 
 
@@ -32,7 +32,7 @@ Sort is maintained on clicking on a directory node.
 
 ### Use
 
-* Just install and go to yourrepository. has extensively been tested with filesystem repositories. Shgould work with github, bazaar, cvs as well.
+* Just install and go to yourrepository. Plugin has  been tested extensively with filesystem repositories. Should work with github, bazaar, cvs as well.
 
 **Have fun!**
 
